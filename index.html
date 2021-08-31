@@ -8,7 +8,32 @@
 
   </head>
   <body>
+    <div class="vc">
+      <h1 class="t1">Visualização do Caos</h1>  
+      <p class="p1">
+        Nessa animação utilizamos um número real para determinar uma curva.<br>
+        Exemplo:<br>
+        Vamos desenhar pontos sobre uma reta horizontal espaçados em 1 unidade. Utilizando o número 1.30192 como exemplo, vamos iterar sobre seus digitos para determinar
+        as rotações que serão feitas enquanto desenhamos a reta. <br>
+        Para o dígito 1, iremos realizar uma rotação de 1 radiano e desenharemos um ponto na reta.<br>
+        Para o dígito 3, iremos realizar uma rotação de 3 radianos e desenharemos outro ponto na reta. <br>
+        Repetimos esse processo até chegarmos ao final do número. Um detalhe importante é que se o dígito for par, sua rotação
+        será realizada no sentido horário, caso contrário, é realizada no sentido anti-horário.<br><br>
+        
+        Isso faz com que números próximos, como 1.301927419548 e 1.301856932164, apresentem curvas bastante distintas.<br><br>
+        A animação mostra as diferentes curvas geradas pelos números √6, √7, √8, com 2000 dígitos de precisão, sendo:<br>
+        Curva vermelha: √6<br>
+        Curva verde: √7<br>
+        Curva azul: √8<br><br>
+        Deixando esse sistema evoluir com o tempo, obtemos a animação ao lado.<br><br>
+
+        Arraste a animação para esquerda/direita para alterar o coeficiente de rotação.<br>
+        Gire a roda do mouse para alterar a escala.<br>
+        Aperte o botão direito do mouse para recomeçar a animação.
+      </p>
+    </div>
     <script src="sd_p5.js"></script>
+    <script src="bignumber.js"></script>
   </body>
 </html>
 
