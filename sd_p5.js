@@ -36,7 +36,9 @@ function setup() {
 
 function draw() {
   background(0);
-  range += dr;
+  if(range + dr <= limite){
+    range += dr;
+  }
 
   if(mouseIsPressed && mouseButton == RIGHT){
     range = 0;
