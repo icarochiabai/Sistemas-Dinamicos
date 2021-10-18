@@ -8,7 +8,7 @@ function setup() {
   createCanvas(400, 400);
   
   createP("O controle deslizante da esquerda representa a velocidade da animação.");
-  createP("O controle deslizante da esquerda representa a escala da animação.");
+  createP("O controle deslizante da direita representa a escala da animação.");
   
   fpsSlider = createSlider(0, 30, 2);
   scaleSlider = createSlider(10, 300, 150);
