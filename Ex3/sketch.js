@@ -7,7 +7,7 @@ function setup() {
   
   createP("");
   createP("O controle deslizante representa a velocidade da animação.");
-  fpsSlider = createSlider(0, 90, 60);
+  fpsSlider = createSlider(1, 90, 60);
   createP("")
   createP("A entrada da esquerda representa o tamanho do ângulo inicial.");
   createP("A entrada da direita representa o tamanho do incremento.");
