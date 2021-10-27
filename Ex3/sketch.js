@@ -60,8 +60,8 @@ function clearBG(){
 
   raio = 8 * zoom;
   
-  if(float(lenInput.value()) >= 0  && float(stepInput.value()) >= 0 && float(lenInput.value()) >= float(stepInput.value())){
-    angulo = float(lenInput.value());
-    incremento = float(stepInput.value());
-  }
+  
+  angulo = float(lenInput.value());
+  incremento = float(stepInput.value());
+
 }
