@@ -47,7 +47,7 @@ function draw() {
   stroke(0);
   point(x, y);
   angulo += incremento;
-  if(angulo >= 2 * PI){
+  if(angulo >= 2 * PI || angulo <= -2 * PI){
     angulo = angulo % (2 * PI);
     raio += 2;
   } 
