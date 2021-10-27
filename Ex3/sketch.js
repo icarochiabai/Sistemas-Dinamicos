@@ -43,7 +43,7 @@ function draw() {
   
   x = width/2 + raio * cos(angulo);
   y = height/2 + raio * sin(angulo);
-  strokeWeight(2);
+  strokeWeight(1);
   stroke(0);
   point(x, y);
   angulo += incremento;
@@ -56,12 +56,12 @@ function draw() {
 function clearBG(){
   background(220);
   stroke(0);
-  strokeWeight(1);
 
   raio = 8 * zoom;
   
   
   angulo = float(lenInput.value());
   incremento = float(stepInput.value());
+  strokeWeight(1 * incremento);
 
 }
